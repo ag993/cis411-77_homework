@@ -1,0 +1,16 @@
+body
+{
+	background-color:#465e67;
+}
+.menu
+{
+	text-align:center;
+	border:5px black solid;
+	background-color:#3d4543;
+}
+.menu a
+{
+	color:white;
+	text-decoration:none;
+	padding:5px;
+}

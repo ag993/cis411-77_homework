@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+    <head>
+        <title> Tic Tac Toe game by Albin George - CIS 411</title>
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+        <link rel="stylesheet"  href="style.css" type="text/css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="game.js"></script>
+
+        <!-- Attempt to make things responsive -->
+
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+    </head>
+    <body>
+    <div class="menu" id="mainMenu">
+        <a href="index.html">Tic Tac Toe</a>
+        <a href="Registration.html"> Registration</a>
+        <a href="contactus.html"> Contact Us </a>
+        <a href="FAQ.html"> FAQ</a>
+    </div>
+
+        <h1>Tic Tac Toe</h1>
+        <h3>Made by: Albin George</h3>
+        <h5>CIS - 411 | Spring 14</h5>
+
+        <!--Place holder for "Player X make your move (Player Mark) -->
+        <h2><span id="playerName"></span> make your move (<span id="playerMark"></span>)</h2>
+        <p></p>
+        <div id="gameMap"></div> <!--Creates the game board by utilizing the javascript file -->
+        <table>
+            <tr>
+                <th></th>
+                <th>Player One</th>
+                <th>Player Two</th>
+            </tr>
+            <tr>
+                <th>Won</th>
+                <td id="playerOneWins">0</td>
+                <td id="playerTwoWins">0</td>
+            </tr>
+        </table>
+    <div id="winner" class="endGame">
+        and the winner is: <span id="winnerName"></span>
+    </div>
+
+
+        <div id="askRestart" class="endGame">
+        Would you like to play again? <a href="#" id="restartGame">Yes</a>
+    </div>
+    </body>
+</html>

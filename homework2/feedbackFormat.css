@@ -1,0 +1,31 @@
+.mainForm
+{
+	position: relative;
+	top: 5px;
+	left: 80px;
+	padding-bottom:50px;
+	color:white;
+	text-decoration:underline;
+	font-size:18px;
+	font-weight:bold;
+}
+h1
+{
+	text-align:left;
+	color:white;
+	position-left:300px;
+	padding-top:50px;
+	padding-left:80px;
+}
+.mainForm input
+{
+	background-color:black;
+	border:0px;
+	color:white;
+}
+.mainForm textarea
+{
+	background-color:black;
+	border:0px;
+	color:white;
+}

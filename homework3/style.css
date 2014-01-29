@@ -1,0 +1,129 @@
+#gameMap{
+    border:3px solid black;
+    clear:both;
+    float:left;
+    margin: 0px 0px 0px 500px;
+
+}
+
+#gameMap .cell{
+
+    cursor:copy;
+    float:left;
+    border:2px solid black;
+    width:120px;
+    height:120px;
+    line-height: 120px;
+    font-size: 90px;
+    text-align: center;
+
+}
+.clear {
+    clear:both;
+    line-height: 0px;
+}
+
+#gameMap .playerOneCell {
+    color:#428bca;
+}
+
+#gameMap .playerTwoCell {
+    color:#d9534f;
+}
+
+#gameMap .hover {
+    background:#f0ad4e;
+}
+
+#gameMap .win {
+    background: #5cb85c;
+}
+
+#playerMark, #playerName {
+    padding: 0px, 5px;
+}
+
+.endGame {
+    display:none;
+}
+
+#winnerName {
+    text-decoration: underline;
+}
+
+table {
+    clear:both;
+    margin:0px auto;
+    max-width: 100%;
+    max-height:100%;
+}
+td {
+    text-align: center;
+
+}
+
+body {
+    width:100%;
+    margin: 0px auto;
+    background-color:#465e67;
+
+}
+
+#winner {
+     float:right;
+     position: absolute;
+     right: 175px;
+     top: 350px;
+     text-align: center;
+    font-size: 21px;
+ }
+
+#askRestart {
+    float:right;
+    position: absolute;
+    right: 175px;
+    top: 330px;
+    text-align: center;
+    font-size:21px;
+}
+
+h1, h2, h3, h5 {
+    text-align: center;
+}
+
+.menu
+{
+    text-align:center;
+    border:5px black solid;
+    background-color:#3d4543;
+    width:100%;
+}
+a
+{
+    color:white;
+    text-decoration:none;
+    padding:5px;
+}
+
+.form {
+    margin:0px 400px 0px 400px;
+    text-align: left;
+
+}
+
+#faqs h3{
+    cursor:pointer;
+}
+#faqs h3.active{
+    color:#d74646;
+}
+#faqs div{
+    height:0;
+    overflow:hidden;
+    position:relative;
+}
+#faqs div p	{
+    padding:0;
+    margin-bottom:15px; }
+
+

@@ -1,0 +1,77 @@
+body
+{
+	background-color:#465e67;
+}
+.mainBox
+{
+	background-color: #3d4543;
+	height: 300px;
+	width: 250px;
+	border-radius: 10px;
+	position: relative;
+	top: 80px;
+	left: 40%;
+}
+.displayContainer
+{
+	background-color:#222;
+	width:220px;
+	position:relative;
+	left:15px;
+	top:20px;
+	height:40px;
+}
+.displayContainer input 
+{
+	position:relative;
+	left:2px;
+	top:2px;
+	height:35px;
+	color:black;
+	background-color:#bccd95;
+	font-size:21px;
+	text-align:right;
+}
+.calculatorKeys input
+{
+	position:relative;
+	top:15px;
+	width:40px;
+	height:30px;
+	border:none;
+	border-radius:8px;
+	margin-left:17px;
+	cursor:pointer;
+	border-top: 2px solid transparent;
+}
+.specialButton
+{
+	color:white;
+	background-color:#6f6f6f;
+	border-bottom:black 3px solid;
+	border-top:black 3px solid;
+}
+.mathButtons
+{
+	color:black;
+	background-color:#ff4561;
+	border-bottom: black 3px solid;
+}
+.equalButton
+{
+	color:black;
+	background-color:#FF9933;
+	border-bottom:black 2px solid;
+	border-top:2px #FF9933 solid;
+}
+.numberButtons
+{
+	color:white;
+	background-color:#303030;
+	border-bottom:black 2px solid;
+	border-top:2px #303030 solid;
+}
+p
+{
+line-height:10px;
+}

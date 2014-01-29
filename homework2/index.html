@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="menuFormat.css">
+	<link rel="stylesheet" type="text/css" href="format.css">
+	<title>
+		Calculator
+	</title>
+	<script>
+		function c(val)
+			{
+				document.getElementById("outputTextBox").value=val;
+			}
+		function boxValue(val)
+			{
+				document.getElementById("outputTextBox").value+=val;
+			}
+		function e()
+			{
+				try
+					{
+						c(eval(document.getElementById("outputTextBox").value))
+					}
+				catch (e)
+					{
+						c("Error")
+					}
+			}
+	</script>
+</head>
+<body>
+	<div class="menu" id="mainMenu">
+		<a href="index.html">Calculator</a>
+		<a href="Registration.html"> Registration</a>
+		<a href="feedback.html"> Feedback </a>
+		<a href="FAQ.html"> FAQ</a>
+	</div>
+	<div class="mainBox">
+		<div class="displayContainer">
+			<input type="text" readonly size="18" id="outputTextBox"> 
+		</div>
+		<div class="calculatorKeys">
+			<p></p>
+				<input style="width:160px;" type="button" id ="cAllButton" class="specialButton" value="Clear All" onclick='c("")'>
+				<input type="button" class="mathButtons" value="/" 					  					onclick='boxValue("/")'>
+			<p></p>
+				<input type="button" class="numberButtons" value="7" onclick='boxValue("7")'>
+				<input type="button" class="numberButtons" value="8" onclick='boxValue("8")'>
+				<input type="button" class="numberButtons" value="9" onclick='boxValue("9")'>
+				<input type="button" class="mathButtons" value="*" onclick='boxValue("*")'>
+			<p></p>
+				<input type="button" class="numberButtons" value="4" onclick='boxValue("4")'>
+				<input type="button" class="numberButtons" value="5" onclick='boxValue("5")'>
+				<input type="button" class="numberButtons" value="6" onclick='boxValue("6")'>
+				<input type="button" class="mathButtons" value="-" onclick='boxValue("-")'>
+			<p></p>
+				<input type="button" class="numberButtons" value="1" onclick='boxValue("1")'>
+				<input type="button" class="numberButtons" value="2" onclick='boxValue("2")'>
+				<input type="button" class="numberButtons" value="3" onclick='boxValue("3")'>
+				<input type="button" class="mathButtons" value="+" onclick='boxValue("+")'>
+			<p></p>
+				<input type="button" class="numberButtons" value="0" onclick='boxValue("0")'>
+				<input type="button" class="numberButtons" value="." onclick='boxValue(".")'>
+				<input type="button" class="numberButtons" value="C" onclick='c("")'>
+				<input type="button" class="equalButton" value="=" onclick='e()'>
+			</div>
+		</div>
+	</body>
+	</html>

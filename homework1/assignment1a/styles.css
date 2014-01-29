@@ -1,0 +1,15 @@
+h1 {
+	background-color:yellow;
+	font-family:verdana;
+	text-align:center;}
+h2 {
+	color:blue;
+	font-family:arial;}
+p {
+	font-family:times;
+	color:red;
+	font-size:16px;}
+pre {
+	font-family:verdana; 
+	color:green;
+	font-size:32px;}

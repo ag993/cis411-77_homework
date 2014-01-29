@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="menuFormat.css">
+	<link rel="stylesheet" type="text/css" href="feedbackFormat.css">
+	<title> Registration </title>
+	<script>
+		function validateEmail(emailField)
+			{
+				var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+				
+				if (reg.test(emailField.value) == false)
+					{
+						alert("Invalid Email Address");
+						return false;
+					}
+					return true;
+			}
+	</script>
+</head>
+<body>
+	<div class="menu" id="mainMenu">
+		<a href="index.html">Calculator</a>
+		<a href="registration.html"> Registration</a>
+		<a href="feedback.html"> Feedback </a>
+		<a href="FAQ.html"> FAQ</a>
+	</div>
+	<h1> Feedback Form</h1>
+	<div class="mainForm">
+		E-Mail:
+		<p>
+		<input type="email" name="email" size="70" onblur="validateEmail(this);">
+		<p>
+		Comments:
+		<p>
+		<textarea rows="20" cols="50"> </textarea>
+		<p>
+		<input type="button" value="Submit">
+		
+	</div>
+</body>
+</html>
+	
+	

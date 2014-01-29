@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Registration </title>
+
+    <!-- Start validation Script -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#mainForm").validate();
+        });
+    </script>
+
+</head>
+<body>
+<div class="menu" id="mainMenu">
+    <a href="index.html">Tic Tac Toe</a>
+    <a href="Registration.html"> Registration</a>
+    <a href="contactus.html"> Contact Us </a>
+    <a href="FAQ.html"> FAQ</a>
+</div>
+	<h1> Feedback Form</h1>
+
+<form action="#" method="post" id="mainForm" class="form">
+    <fieldset>
+        <legend>Contact Us Form</legend>
+        <p>
+            <label for="name">Name <span>*</span></label>
+            <input type="text" name="name"size="30" class="required"/>
+        </p>
+        <p>
+            <label for="email">Email <span>*</span></label>
+            <input type="text" name="email" size="30" class="required email"/></p>
+        <p>
+        <label for="phone">Comments</label>
+        <textarea name="phone" rows=10 cols="25" class="required"> </textarea>
+        </p>
+        <p>
+            <input type="submit" value="Submit" name="submit" />
+        </p>
+    </fieldset>
+</form>
+
+</body>
+</html>
+	
+	

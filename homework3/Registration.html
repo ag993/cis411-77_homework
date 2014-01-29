@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Registration </title>
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#regForm").validate();
+        });
+    </script>
+
+</head>
+<body>
+<div class="menu" id="mainMenu">
+    <a href="index.html">Tic Tac Toe</a>
+    <a href="Registration.html"> Registration</a>
+    <a href="contactus.html"> Contact Us </a>
+    <a href="FAQ.html"> FAQ</a>
+</div>
+<p>
+<h1> Registration</h1>
+
+    <form action="#" method="post" id="regForm" class="form">
+    <fieldset>
+        <legend>Sign-up Form</legend>
+        <p>
+            <label for="firstName"> First Name </label>
+            <input type="text" name="firstName" size="30" class="required"/>
+         </p>
+        <p>
+            <label for="lastName">Last Name </label>
+            <input type="text" name="lastName" size="30" class="required"/>
+        </p>
+        <p>
+            <label for="userName">User Name </label>
+            <input type="text" name="userName"  size="30" class="required"/>
+        </p>
+        <p>
+            <label for="passWord">Password </label>
+            <input type="password" name="passWord" size="30" class="required"/>
+        </p>
+        <p>
+            <label for="email">Email Address </label>
+            <input type="email" name="email"  size="30" class="required email"/>
+        </p>
+        <p>
+            <input type="button" name="submit" value="submit"/>
+         </p>
+        </fieldset>
+        </form>
+</body>
+</html>
+	
+	
