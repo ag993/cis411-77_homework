@@ -16,7 +16,9 @@ namespace MvcPetShop.Controllers
 
         // GET: /Pets/
         public ActionResult Index()
+
         {
+
             return View(db.Pets.ToList());
         }
 
