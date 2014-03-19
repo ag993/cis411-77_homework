@@ -1,0 +1,110 @@
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\MvcPetShop.dll.config
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\MvcPetShop.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\MvcPetShop.pdb
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Antlr3.Runtime.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\EntityFramework.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\EntityFramework.SqlServer.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Google.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Web.Infrastructure.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Newtonsoft.Json.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Owin.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.Helpers.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.Mvc.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.Optimization.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.Razor.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.Deployment.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.Razor.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\WebGrease.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.Helpers.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.Mvc.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.Optimization.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.Razor.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.Deployment.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.Razor.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Newtonsoft.Json.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Antlr3.Runtime.pdb
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\EntityFramework.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\EntityFramework.SqlServer.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Google.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\obj\Debug\MvcPetShop.csprojResolveAssemblyReference.cache
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\obj\Debug\MvcPetShop.dll
+c:\users\albin george\documents\visual studio 2013\Projects\MvcPetShop\MvcPetShop\obj\Debug\MvcPetShop.pdb
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\MvcPetShop.dll.config
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\MvcPetShop.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\MvcPetShop.pdb
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Antlr3.Runtime.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\EntityFramework.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\EntityFramework.SqlServer.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.Core.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.Owin.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Cookies.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Facebook.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Google.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.OAuth.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Twitter.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Web.Infrastructure.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Newtonsoft.Json.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Owin.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.Helpers.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.Mvc.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.Optimization.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.Razor.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.Deployment.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.Razor.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\WebGrease.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.Helpers.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.Mvc.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.Optimization.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.Razor.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.Deployment.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\System.Web.WebPages.Razor.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Newtonsoft.Json.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Antlr3.Runtime.pdb
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\EntityFramework.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\EntityFramework.SqlServer.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.Core.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.Owin.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Facebook.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Cookies.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.OAuth.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Google.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.Twitter.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\obj\Debug\MvcPetShop.csprojResolveAssemblyReference.cache
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\obj\Debug\MvcPetShop.dll
+Z:\Desktop\Dropbox\Academics\_6_Spring_2014\CIS 411 - Reisz\GitHub Repo\cis411-77_homework\homework6\MvcPetShop\MvcPetShop\obj\Debug\MvcPetShop.pdb
