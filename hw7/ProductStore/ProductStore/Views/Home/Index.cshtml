@@ -4,12 +4,13 @@
 
         function AppViewModel() {
             var self = this;
-            self.loggedIn = @(Request.IsAuthenticated ? "true" : "false")
+            self.loggedIn = @(Request.IsAuthenticated ? "true" : "false");
 
             self.products = ko.observableArray();
             self.cart = ko.observableArray();
             self.orders = ko.observableArray();
             self.details = ko.observable();
+            self.errorMessage = ko.observable(null);
 
             function ProductViewModel(root, product) {
                 var self = this;
@@ -32,72 +33,71 @@
                 };
 
             }
-                function OrderDetailsViewModel(order) {
-                    var self = this;
-                    self.items = ko.observableArray();
-                    self.Id = order.Id;
+            function OrderDetailsViewModel(order) {
+                var self = this;
+                self.items = ko.observableArray();
+                self.Id = order.Id;
 
-                    self.total = ko.computed(function () {
-                        var sum = 0;
-                        $.each(self.items(), function (index, item) {
-                            sum += item.Price * item.Quantity;
-                        });
-                        return '$' + sum.toFixed(2);
+                self.total = ko.computed(function () {
+                    var sum = 0;
+                    $.each(self.items(), function (index, item) {
+                        sum += item.Price * item.Quantity;
                     });
-
-                    $.getJSON("/api/orders/" + order.Id, function (order) {
-                        $.each(order.Details, function (index, item) {
-                            self.items.push(item);
-                        })
-                    });
-                };
-
-                self.resetCart = function() {
-                    var items = self.cart.removeAll();
-                    $.each(items, function (index, product) {
-                        product.Quantity(0);
-                    });
-                }
-
-                self.getDetails = function (order) {
-                    self.details(new OrderDetailsViewModel(order));
-                }
-
-                self.createOrder = function () {
-                    var jqxhr = $.ajax({
-                        type: 'POST',
-                        url: "api/orders",
-                        contentType: 'application/json; charset=utf-8',
-                        data: ko.toJSON({ Details: self.cart }),
-                        dataType: "json",
-                        success: function (newOrder) {
-                            self.resetCart();
-                            self.orders.push(newOrder);
-                        },
-                        error: function (jqXHR, textStatus, errorThrown) {
-                            self.errorMessage(errorThrown);
-                        }  
-                    });
-                };
-
-                // Initialize the view-model.
-                $.getJSON("/api/products", function (products) {
-                    $.each(products, function (index, product) {
-                        self.products.push(new ProductViewModel(self, product));
-                    })
+                    return '$' + sum.toFixed(2);
                 });
 
-                $.getJSON("api/orders", self.orders);
+                $.getJSON("/api/orders/" + order.Id, function (order) {
+                    $.each(order.Details, function (index, item) {
+                        self.items.push(item);
+                    })
+                });
+            };
+
+            self.resetCart = function() {
+                var items = self.cart.removeAll();
+                $.each(items, function (index, product) {
+                    product.Quantity(0);
+                });
+            }
+
+            self.getDetails = function (order) {
+                self.details(new OrderDetailsViewModel(order));
+            }
+
+            self.createOrder = function () {
+                var jqxhr = $.ajax({
+                    type: 'POST',
+                    url: "api/orders",
+                    contentType: 'application/json; charset=utf-8',
+                    data: ko.toJSON({ Details: self.cart }),
+                    dataType: "json",
+                    success: function (newOrder) {
+                        self.errorMessage(null);
+                        self.resetCart();
+                        self.orders.push(newOrder);
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        self.errorMessage(errorThrown);
+                    }  
+                });
+            }
+
+            // Initialize the view-model.
+            $.getJSON("/api/products", function (products) {
+                $.each(products, function (index, product) {
+                    self.products.push(new ProductViewModel(self, product));
+                })
+            });
+
+            $.getJSON("api/orders", self.orders);
+        }
       
 
             $(document).ready(function () {
-                alert("load");
-                ko.applyBindings(new AppViewModel());
+                var viewModel = new AppViewModel();
+                ko.applyBindings(viewModel);
             });
-
-        }
     </script>
-}
 }
 <div class="content">
     <!-- List of products -->
@@ -133,40 +133,41 @@
             </tbody>
         </table>
         <input type="button" data-bind="click: createOrder" value="Create Order" />
+        <div class="error" data-bind="if: errorMessage, text: errorMessage"></div>
     </div>
 
-<div id="orders-area" class="content">
-    <!-- List of orders -->
-    <div class="float-left">
-        <h1>Your Orders</h1>
-        <ul id="orders" data-bind="foreach: orders">
-            <li class="ui-widget-content">
-                <a href="#" data-bind="click: $root.getDetails">
-                    Order # <span data-bind="text: $data.Id"></span>
-                </a>
-            </li>
-        </ul>
-    </div>
+    <div id="orders-area" class="content" data-bind="visible: orders().length > 0">
+        <!-- List of orders -->
+        <div class="float-left">
+            <h1>Your Orders</h1>
+            <ul id="orders" data-bind="foreach: orders">
+                <li class="ui-widget-content">
+                    <a href="#" data-bind="click: $root.getDetails">
+                        Order # <span data-bind="text: $data.Id"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
 
-    <!-- Order Details -->
-    <<div id="order-details" class="float-right" data-bind="if: details()">
-    <h2>Order #<span data-bind="text: details().Id"></span></h2>
-    <table class="details ui-widget-content">
-        <thead>
-            <tr><td>Item</td><td>Price</td><td>Quantity</td><td>Subtotal</td></tr>
-        </thead>
-        <tbody data-bind="foreach: details().items">
-            <tr>
-                <td><span data-bind="text: $data.Product"></span></td>
-                <td><span data-bind="text: $data.Price"></span></td>
-                <td><span data-bind="text: $data.Quantity"></span></td>
-                <td>
-                    <span data-bind="text: ($data.Price * $data.Quantity).toFixed(2)"></span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <p>Total: <span data-bind="text: details().total"></span></p>
-</div>
-</div>
+        <!-- Order Details -->
+        <div id="order-details" class="float-right" data-bind="if: details()">
+            <h2>Order #<span data-bind="text: details().Id"></span></h2>
+            <table class="details ui-widget-content">
+                <thead>
+                    <tr><td>Item</td><td>Price</td><td>Quantity</td><td>Subtotal</td></tr>
+                </thead>
+                <tbody data-bind="foreach: details().items">
+                    <tr>
+                        <td><span data-bind="text: $data.Product"></span></td>
+                        <td><span data-bind="text: $data.Price"></span></td>
+                        <td><span data-bind="text: $data.Quantity"></span></td>
+                        <td>
+                            <span data-bind="text: ($data.Price * $data.Quantity).toFixed(2)"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Total: <span data-bind="text: details().total"></span></p>
+        </div>
+    </div>
 </div>

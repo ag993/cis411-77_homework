@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProductStore.Models;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -9,7 +10,7 @@ using System.Net.Http;
 using System.Web;
 using System.Web.Http;
 
-namespace ProductStore.Models
+namespace ProductStore.Controllers
 {
     [Authorize(Roles="Administrator")]
     public class AdminController : ApiController

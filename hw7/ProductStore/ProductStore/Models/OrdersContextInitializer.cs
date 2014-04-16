@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Data.Entity;
-
-namespace ProductStore.Models
+﻿namespace ProductStore.Models
 {
-    public class OrdersContextInitializer : DropCreateDatabaseIfModelChanges<OrdersContext>
+    using System;
+    using System.Collections.Generic;
+    using System.Data.Entity;
+
+    public class OrdersContextInitializer : DropCreateDatabaseAlways<OrdersContext>
     {
         protected override void Seed(OrdersContext context)
         {
