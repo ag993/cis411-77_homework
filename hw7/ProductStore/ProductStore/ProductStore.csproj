@@ -191,9 +191,13 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OrderDetail.cs" />
+    <Compile Include="Models\OrderDTO.cs" />
     <Compile Include="Models\OrdersContext.cs" />
     <Compile Include="Models\OrdersContextInitializer.cs" />
+    <Compile Include="Models\OrdersController.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductDTO.cs" />
+    <Compile Include="Models\ProductsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
